@@ -1,0 +1,19 @@
+info:
+  name: basic
+  type: http
+  seq: 2
+
+http:
+  method: GET
+  url: https://httpbin.org/basic-auth/ne/ne
+  auth:
+    type: basic
+    username: ne
+    password: ne
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
